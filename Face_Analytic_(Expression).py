@@ -15,8 +15,8 @@ Dataset source  : https://www.kaggle.com/jonathanoheix/face-expression-recogniti
 """
 
 #!unzip -q './drive/My Drive/images.zip' -d './'
-#!cp "/content/drive/My Drive/1590183629_dict" ./
-#!cp "/content/drive/My Drive/1590183629_model" ./
+#!cp "/content/drive/My Drive/1590218618_dict" ./
+#!cp "/content/drive/My Drive/1590218618_model" ./
 
 import csv
 import time
@@ -160,10 +160,10 @@ with open(export_path_dict, 'w') as outfile:
 #------------------------------
 # Load the model and Dictionary
 #------------------------------
-reloaded_model = tf.keras.models.load_model('/content/1590183629_model')
+reloaded_model = tf.keras.models.load_model('/content/1590218618_model')
 model = reloaded_model
 
-with open('/content/1590183629_dict') as dict_file:
+with open('/content/1590218618_dict') as dict_file:
     d = ast.literal_eval(dict_file.readline())
 
 #----------------------------------------------
