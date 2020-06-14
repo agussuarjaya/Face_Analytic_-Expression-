@@ -15,6 +15,7 @@ import tensorflow as tf
 
 from flask import Flask
 from flask import request
+from flask import send_from_directory
 from time import gmtime, strftime
 from keras.preprocessing import image
 from tensorflow.keras.preprocessing.image import ImageDataGenerator
@@ -94,6 +95,13 @@ resp = {
 #-----------------------------------
 # Flask codes for web service
 #-----------------------------------
+@app.route("/dl")
+def dl():
+    try:
+        return send_from_directory('.', './1590218618_model.tflite', attachment_filename='model.tflite', as_attachment = True)
+    except Exception as e:
+        return str(e)
+    
 @app.route("/stream", methods=['POST'])
 def stream():
     p_result = ''
@@ -137,4 +145,4 @@ def home():
     return homepage_head + homepage_body + predict_result + homepage_end
 
 if __name__ == '__main__':
-    app.run(host='127.0.0.1', port=443, ssl_context='adhoc')
+    app.run(host='127.0.0.1', port=80) #, ssl_context='adhoc')
