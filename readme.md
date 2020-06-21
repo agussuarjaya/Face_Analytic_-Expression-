@@ -15,11 +15,11 @@ Try to analyze faces with TensorFlow and classify into 7 expressions (angry, dis
 
 ## Deployment & Front End
 #### Cloud : [Python + Flask + Docker](https://github.com/agussuarjaya/Face_Analytic_-Expression-/tree/master/Server)
-#### Android : [Java + Android SDK + Android Studio](https://github.com/agussuarjaya/Face_Analytic_-Expression-/tree/master/Client)
+#### Android : [Java + Android SDK + Android Studio](https://github.com/agussuarjaya/Face_Analytic_-Expression-/tree/master/Client) ( [APK](https://github.com/agussuarjaya/Face_Analytic_-Expression-/blob/master/Face_Analytic_(Expression)-debug.apk) )
 ##  
 #### Other Related Front End
-#### [Android Deployment](https://github.com/agussuarjaya/Face_Analytic_Android_-TFLite-Cloud-)
-#### [Web Deployment](https://github.com/kobars/React-predict-face-expression)
+#### [Android Deployment](https://github.com/agussuarjaya/Face_Analytic_Android_-TFLite-Cloud-) ( [APK](https://github.com/agussuarjaya/Face_Analytic_Android_-TFLite-Cloud-/blob/master/Face_Analytic_Android_(TFLite%2BCloud)-debug.apk) )
+#### [Web Deployment](https://github.com/kobars/React-predict-face-expression) ( [URL](https://react-predict-face-expression.kobar.now.sh/) )
 
 
 &nbsp; 
