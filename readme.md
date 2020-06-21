@@ -1,5 +1,5 @@
 # Face Analytic (Expression) with TensorFlow
-Copyright 2020  I Made Agus Dwi Suarjaya, Author 2, Author 3, Ni Luh Putu Diah Putri Maheswari
+Copyright 2020  I Made Agus Dwi Suarjaya, I Putu Adi Putra Setiawan, Kobar Septyanus, Ni Luh Putu Diah Putri Maheswari
 
 
 &nbsp; 
